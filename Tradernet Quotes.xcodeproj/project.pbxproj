@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		EF2746B72954A2E600728D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2746B62954A2E600728D60 /* AppDelegate.swift */; };
 		EF2746B92954A2E600728D60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2746B82954A2E600728D60 /* SceneDelegate.swift */; };
-		EF2746BB2954A2E600728D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2746BA2954A2E600728D60 /* ViewController.swift */; };
-		EF2746BE2954A2E600728D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2746BC2954A2E600728D60 /* Main.storyboard */; };
+		EF2746BB2954A2E600728D60 /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2746BA2954A2E600728D60 /* QuotesViewController.swift */; };
 		EF2746C02954A2E700728D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2746BF2954A2E700728D60 /* Assets.xcassets */; };
 		EF2746C32954A2E700728D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2746C12954A2E700728D60 /* LaunchScreen.storyboard */; };
+		EF2746CB2954A3A700728D60 /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2746CA2954A3A700728D60 /* QuoteTableViewCell.swift */; };
+		EF2746CE2954A40F00728D60 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EF2746CD2954A40F00728D60 /* SnapKit */; };
+		EF2746D12954A41D00728D60 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = EF2746D02954A41D00728D60 /* Starscream */; };
+		EF4A0ED629559E62004B7EE1 /* PercentChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0ED529559E62004B7EE1 /* PercentChangeView.swift */; };
+		EF4A0ED82955A236004B7EE1 /* QuotesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0ED72955A236004B7EE1 /* QuotesPresenter.swift */; };
+		EF4A0EDA2955A2C3004B7EE1 /* QuotesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0ED92955A2C3004B7EE1 /* QuotesInteractor.swift */; };
+		EF4A0EDC2955A2F7004B7EE1 /* QuotesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0EDB2955A2F7004B7EE1 /* QuotesAssembly.swift */; };
+		EF4A0EDE2955A328004B7EE1 /* QuotesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0EDD2955A328004B7EE1 /* QuotesRouter.swift */; };
+		EF4A0EE22955A4F6004B7EE1 /* SocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0EE12955A4F6004B7EE1 /* SocketClient.swift */; };
+		EF4A0EE52955BEEB004B7EE1 /* QuoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0EE42955BEEB004B7EE1 /* QuoteDTO.swift */; };
+		EF4A0EE72955C160004B7EE1 /* QuotesContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0EE62955C160004B7EE1 /* QuotesContract.swift */; };
+		EF4A0EEC2955C721004B7EE1 /* RealtimeQuotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0EEB2955C721004B7EE1 /* RealtimeQuotesService.swift */; };
+		EF4A0EEF2955E6A3004B7EE1 /* UITableViewCell+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0EEE2955E6A3004B7EE1 /* UITableViewCell+ReuseIdentifier.swift */; };
+		EF4A0EF12955EB00004B7EE1 /* Decimal+Formatted.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0EF02955EB00004B7EE1 /* Decimal+Formatted.swift */; };
+		EF4A0EF329561E97004B7EE1 /* QuoteUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A0EF229561E97004B7EE1 /* QuoteUIModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF2746B32954A2E600728D60 /* Tradernet Quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tradernet Quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF2746B62954A2E600728D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF2746B82954A2E600728D60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF2746BA2954A2E600728D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF2746BD2954A2E600728D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF2746BA2954A2E600728D60 /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		EF2746BF2954A2E700728D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF2746C22954A2E700728D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2746C42954A2E700728D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2746CA2954A3A700728D60 /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
+		EF4A0ED529559E62004B7EE1 /* PercentChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentChangeView.swift; sourceTree = "<group>"; };
+		EF4A0ED72955A236004B7EE1 /* QuotesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesPresenter.swift; sourceTree = "<group>"; };
+		EF4A0ED92955A2C3004B7EE1 /* QuotesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesInteractor.swift; sourceTree = "<group>"; };
+		EF4A0EDB2955A2F7004B7EE1 /* QuotesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesAssembly.swift; sourceTree = "<group>"; };
+		EF4A0EDD2955A328004B7EE1 /* QuotesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesRouter.swift; sourceTree = "<group>"; };
+		EF4A0EE12955A4F6004B7EE1 /* SocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketClient.swift; sourceTree = "<group>"; };
+		EF4A0EE42955BEEB004B7EE1 /* QuoteDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDTO.swift; sourceTree = "<group>"; };
+		EF4A0EE62955C160004B7EE1 /* QuotesContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesContract.swift; sourceTree = "<group>"; };
+		EF4A0EEB2955C721004B7EE1 /* RealtimeQuotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeQuotesService.swift; sourceTree = "<group>"; };
+		EF4A0EEE2955E6A3004B7EE1 /* UITableViewCell+ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReuseIdentifier.swift"; sourceTree = "<group>"; };
+		EF4A0EF02955EB00004B7EE1 /* Decimal+Formatted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Formatted.swift"; sourceTree = "<group>"; };
+		EF4A0EF229561E97004B7EE1 /* QuoteUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteUIModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF2746CE2954A40F00728D60 /* SnapKit in Frameworks */,
+				EF2746D12954A41D00728D60 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +84,123 @@
 		EF2746B52954A2E600728D60 /* Tradernet Quotes */ = {
 			isa = PBXGroup;
 			children = (
-				EF2746B62954A2E600728D60 /* AppDelegate.swift */,
-				EF2746B82954A2E600728D60 /* SceneDelegate.swift */,
-				EF2746BA2954A2E600728D60 /* ViewController.swift */,
-				EF2746BC2954A2E600728D60 /* Main.storyboard */,
-				EF2746BF2954A2E700728D60 /* Assets.xcassets */,
-				EF2746C12954A2E700728D60 /* LaunchScreen.storyboard */,
-				EF2746C42954A2E700728D60 /* Info.plist */,
+				EF2746D22954A42C00728D60 /* App */,
+				EF2746D32954A45200728D60 /* Presentation */,
+				EF4A0EE92955C6DB004B7EE1 /* Business Logic */,
+				EF4A0EDF2955A4E2004B7EE1 /* Core */,
 			);
 			path = "Tradernet Quotes";
+			sourceTree = "<group>";
+		};
+		EF2746D22954A42C00728D60 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EF2746B62954A2E600728D60 /* AppDelegate.swift */,
+				EF2746B82954A2E600728D60 /* SceneDelegate.swift */,
+				EF2746BF2954A2E700728D60 /* Assets.xcassets */,
+				EF2746C42954A2E700728D60 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EF2746D32954A45200728D60 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A0EED2955E695004B7EE1 /* Extensions */,
+				EF4A0ED329559E4B004B7EE1 /* Common UI */,
+				EF4A0ED429559E52004B7EE1 /* Scenes */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EF2746D52954A46200728D60 /* Quotes */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A0EE62955C160004B7EE1 /* QuotesContract.swift */,
+				EF2746BA2954A2E600728D60 /* QuotesViewController.swift */,
+				EF4A0ED72955A236004B7EE1 /* QuotesPresenter.swift */,
+				EF4A0ED92955A2C3004B7EE1 /* QuotesInteractor.swift */,
+				EF4A0EDB2955A2F7004B7EE1 /* QuotesAssembly.swift */,
+				EF4A0EDD2955A328004B7EE1 /* QuotesRouter.swift */,
+			);
+			path = Quotes;
+			sourceTree = "<group>";
+		};
+		EF2746D62954A47900728D60 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				EF2746C12954A2E700728D60 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		EF4A0ED329559E4B004B7EE1 /* Common UI */ = {
+			isa = PBXGroup;
+			children = (
+				EF2746CA2954A3A700728D60 /* QuoteTableViewCell.swift */,
+				EF4A0ED529559E62004B7EE1 /* PercentChangeView.swift */,
+			);
+			path = "Common UI";
+			sourceTree = "<group>";
+		};
+		EF4A0ED429559E52004B7EE1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EF2746D62954A47900728D60 /* Launch */,
+				EF2746D52954A46200728D60 /* Quotes */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EF4A0EDF2955A4E2004B7EE1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A0EE02955A4ED004B7EE1 /* SocketClient */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EF4A0EE02955A4ED004B7EE1 /* SocketClient */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A0EE12955A4F6004B7EE1 /* SocketClient.swift */,
+			);
+			path = SocketClient;
+			sourceTree = "<group>";
+		};
+		EF4A0EE32955BEDE004B7EE1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A0EE42955BEEB004B7EE1 /* QuoteDTO.swift */,
+				EF4A0EF229561E97004B7EE1 /* QuoteUIModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		EF4A0EE92955C6DB004B7EE1 /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A0EEA2955C711004B7EE1 /* Services */,
+				EF4A0EE32955BEDE004B7EE1 /* Entities */,
+			);
+			path = "Business Logic";
+			sourceTree = "<group>";
+		};
+		EF4A0EEA2955C711004B7EE1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A0EEB2955C721004B7EE1 /* RealtimeQuotesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EF4A0EED2955E695004B7EE1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF4A0EEE2955E6A3004B7EE1 /* UITableViewCell+ReuseIdentifier.swift */,
+				EF4A0EF02955EB00004B7EE1 /* Decimal+Formatted.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +219,10 @@
 			dependencies = (
 			);
 			name = "Tradernet Quotes";
+			packageProductDependencies = (
+				EF2746CD2954A40F00728D60 /* SnapKit */,
+				EF2746D02954A41D00728D60 /* Starscream */,
+			);
 			productName = "Tradernet Quotes";
 			productReference = EF2746B32954A2E600728D60 /* Tradernet Quotes.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +251,10 @@
 				Base,
 			);
 			mainGroup = EF2746AA2954A2E600728D60;
+			packageReferences = (
+				EF2746CC2954A40E00728D60 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				EF2746CF2954A41D00728D60 /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
 			productRefGroup = EF2746B42954A2E600728D60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +271,6 @@
 			files = (
 				EF2746C32954A2E700728D60 /* LaunchScreen.storyboard in Resources */,
 				EF2746C02954A2E700728D60 /* Assets.xcassets in Resources */,
-				EF2746BE2954A2E600728D60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +281,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF2746BB2954A2E600728D60 /* ViewController.swift in Sources */,
+				EF4A0EDC2955A2F7004B7EE1 /* QuotesAssembly.swift in Sources */,
+				EF4A0EDE2955A328004B7EE1 /* QuotesRouter.swift in Sources */,
+				EF2746CB2954A3A700728D60 /* QuoteTableViewCell.swift in Sources */,
+				EF4A0EF12955EB00004B7EE1 /* Decimal+Formatted.swift in Sources */,
+				EF2746BB2954A2E600728D60 /* QuotesViewController.swift in Sources */,
 				EF2746B72954A2E600728D60 /* AppDelegate.swift in Sources */,
+				EF4A0EEF2955E6A3004B7EE1 /* UITableViewCell+ReuseIdentifier.swift in Sources */,
+				EF4A0EE22955A4F6004B7EE1 /* SocketClient.swift in Sources */,
+				EF4A0EDA2955A2C3004B7EE1 /* QuotesInteractor.swift in Sources */,
+				EF4A0EEC2955C721004B7EE1 /* RealtimeQuotesService.swift in Sources */,
+				EF4A0EF329561E97004B7EE1 /* QuoteUIModel.swift in Sources */,
+				EF4A0ED82955A236004B7EE1 /* QuotesPresenter.swift in Sources */,
+				EF4A0ED629559E62004B7EE1 /* PercentChangeView.swift in Sources */,
 				EF2746B92954A2E600728D60 /* SceneDelegate.swift in Sources */,
+				EF4A0EE72955C160004B7EE1 /* QuotesContract.swift in Sources */,
+				EF4A0EE52955BEEB004B7EE1 /* QuoteDTO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF2746BC2954A2E600728D60 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF2746BD2954A2E600728D60 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF2746C12954A2E700728D60 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +437,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MJWVGRX9VD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Tradernet Quotes/Info.plist";
+				INFOPLIST_FILE = "Tradernet Quotes/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +465,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MJWVGRX9VD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Tradernet Quotes/Info.plist";
+				INFOPLIST_FILE = "Tradernet Quotes/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +506,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF2746CC2954A40E00728D60 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		EF2746CF2954A41D00728D60 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF2746CD2954A40F00728D60 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF2746CC2954A40E00728D60 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		EF2746D02954A41D00728D60 /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF2746CF2954A41D00728D60 /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EF2746AB2954A2E600728D60 /* Project object */;
 }
